@@ -74,7 +74,7 @@
             // 
             // area
             // 
-            this.area.Location = new System.Drawing.Point(26, 119);
+            this.area.Location = new System.Drawing.Point(26, 132);
             this.area.Name = "area";
             this.area.Size = new System.Drawing.Size(81, 33);
             this.area.TabIndex = 6;
@@ -126,9 +126,11 @@
         private System.Windows.Forms.Button hockeyButton;
         private System.Windows.Forms.Label outputLabel;
         private System.Windows.Forms.Button payButton;
+
         private System.Windows.Forms.Button area;
         private System.Windows.Forms.Button carpet;
         private System.Windows.Forms.Button bill;
+
     }
 }
 

@@ -57,6 +57,7 @@ namespace VariablePractice
             double subtotal = shirtcost * tax + shirtcost;
             double compleatetotal = bill - subtotal;
             outputLabel.Text = $"shirt cost ${shirtcost} \n tax: ${tax} \n total is: ${subtotal} \n your change is ${compleatetotal} have a nice day";
+
         }
     }
 }
